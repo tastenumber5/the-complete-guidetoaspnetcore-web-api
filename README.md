@@ -35,7 +35,10 @@ video 07  Building Your First Asp.Net Core API - Getting Start
   >Add Microsoft.EntityFrameworkCore.Design
   1.create a new class > rename AppDbContext
   2.ctor >   public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-  3. public DbSet<Books> Books {get; set;}
+  3. public DbSet<Books> Books {get; set;} <define table names for c#>
+  4. appsettings.json >  
+  "ConnectionStrings": {
+     "DefaultConnectionString": "fake-db-connection"
   
 
   
