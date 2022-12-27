@@ -15,5 +15,29 @@ video 04 title Default ASP.NET Core Web API Project Files
 >appsettings.json >store connect streams
 >Program.cs is the entry point
 video 05. Testing Asp.Net Core Web APIs with Swagger and Postman
- 
+video 07  Building Your First Asp.Net Core API - Getting Start
+  What You Will Learn
+  .Data Models
+  .Entity Framework Core Database Context
+  .Entity Framework Core Migrations and Seeding Your Database
+  Working with Data
+  .Adding Data [HttpPpst]
+  .Getting Data [HttpGet]
+  .Updating Data [HttpPut]
+08. Adding a Model to an Asp.Net Core Web API
+    Entity Framework uses EDM(Entity Data Model)
+    EDM is a model that decribes the entities and the relationships between them
+    Models are just c# classess
+09. Adding Your Entity Framework Core DbContext File to Web API
+    Entity Framework Database Context - The most important EF class
+    This is a bridges between Entity classes(c# classes) and the database table (sql).
+  >Add Microsoft.EntityFrameworkCore
+  >Add Microsoft.EntityFrameworkCore.Design
+  1.create a new class > rename AppDbContext
+  2.ctor >   public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+  3. public DbSet<Books> Books {get; set;}
   
+
+  
+  
+ 
