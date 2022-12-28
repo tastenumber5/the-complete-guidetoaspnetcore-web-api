@@ -44,6 +44,10 @@ video 07  Building Your First Asp.Net Core API - Getting Start
   Solution: ASP.NET Core 6 - How to deal with the missing Startup.cs file 
   https://www.youtube.com/watch?v=vhNhcuht0J0
   Author Tony Spencer
+  6.public string ConnectionString { get; set; }
+  7.ConnectionString = Configuation.GetConnectionString("DefaultConnectionString");
+  8.services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+  9.Install Dependencies Microsoft.EntityFrameworkCore.SqlServer
   
 
   
