@@ -1,5 +1,6 @@
 # the-complete-guidetoaspnetcore-web-api" 
 https://www.youtube.com/watch?v=HCqHBFJKe44&list=PL2Q8rFbm-4ru6hExDbfrN3QZNKI7n3p0N
+video 03 Git
 video 04 title Default ASP.NET Core Web API Project Files
 >SOLUTION EXPLORER
 >Connected Services + Add Service Dependencies | + Add Service References(OpenAPI, gRPC) | OtherServices
