@@ -53,7 +53,8 @@ video 07  Building Your First Asp.Net Core API - Getting Start
   ✅ Entity Framework introduced a migration tool that automatically updates the database schema when your model changes without losing any existing data
   1.Install dependencies - Microsoft.EntityFramworkCore.Tools
   2.search Server explorer > Data Connections > create Sql Server | sql server object explorer > System Database > BookDB
-  3.Package Manager Console >
+  3.Package Manager Console >  Add-Migration IntialDatabaseMigration
+  4.Package Manager Console > Update-Database
   
   
  
