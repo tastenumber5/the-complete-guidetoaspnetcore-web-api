@@ -48,8 +48,12 @@ video 07  Building Your First Asp.Net Core API - Getting Start
   7.ConnectionString = Configuation.GetConnectionString("DefaultConnectionString");
   8.services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
   9.Install Dependencies Microsoft.EntityFrameworkCore.SqlServer
-  
-
+10. Adding Your First Entity Framework Core Migration
+  ✅ The migrations feature in EF Core provides a way to incrementally update the database schema to keep it in sync with the application's data model while preserving existing data in the database.
+  ✅ Entity Framework introduced a migration tool that automatically updates the database schema when your model changes without losing any existing data
+  1.Install dependencies - Microsoft.EntityFramworkCore.Tools
+  2.search Server explorer > Data Connections > create Sql Server | sql server object explorer > System Database > BookDB
+  3.Package Manager Console >
   
   
  
